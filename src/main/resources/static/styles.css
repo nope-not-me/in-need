@@ -44,7 +44,7 @@ body {
     flex-direction: row;
     align-items: flex-end;
     align-content: flex-end;
-    justify-content: flex-end; /* Align items to the end */
+    justify-content: flex-end; 
     margin-right: 0;
     padding-right: 0px;
     width: 100%;
@@ -115,15 +115,15 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 2; /* Ensure the text is above the background image */
-  text-align: center; /* Adjust as needed */
+  z-index: 2; 
+  text-align: center; 
 }
 
 .carousel__text {
-  color: lightgreen; /* Set text color */
-  font-size: 64px; /* Adjust font size */
-  font-family: 'Lato', sans-serif; /* Adjust font family */
-  /* Add any other text styling as needed */
+  color: lightgreen; 
+  font-size: 64px; 
+  font-family: 'Lato', sans-serif; 
+  
 }
 
 @keyframes tonext {
@@ -209,7 +209,7 @@ body {
   
   .carousel {
     position: relative;
-    padding-top: 50%; /* Set padding-top to 50% of the carousel height */
+    padding-top: 50%; 
     filter: drop-shadow(0 0 10px #0003);
     perspective: 100px;
     width: 100%;
@@ -235,32 +235,32 @@ body {
   flex: 0 0 100%;
   width: 100%;
   background-image: url('img/300,000 children forced to beg in India copy.jpeg'); /* Set the path to your odd image */
-  background-size: cover; /* Adjust to your needs */
+  background-size: cover; 
   background-repeat: no-repeat;
   counter-increment: item;
 }
   
   .carousel__slide:nth-child(1) {
-    background-image: url('img/Cambodia.jpeg'); /* Set the path to your even image */
-    background-size: cover; /* Adjust to your needs */
+    background-image: url('img/Cambodia.jpeg'); 
+    background-size: cover; 
     background-repeat: no-repeat;
   }
 
   .carousel__slide:nth-child(2) {
-    background-image: url('img/_ (8).jpeg'); /* Set the path to your even image */
-    background-size: cover; /* Adjust to your needs */
+    background-image: url('img/_ (8).jpeg'); 
+    background-size: cover; 
     background-repeat: no-repeat;
   }
 
   .carousel__slide:nth-child(3) {
-    background-image: url('img/Tuổi thơ.jpeg'); /* Set the path to your even image */
-    background-size: cover; /* Adjust to your needs */
+    background-image: url('img/Tuổi thơ.jpeg'); 
+    background-size: cover; 
     background-repeat: no-repeat;
   }
 
   .carousel__slide:nth-child(4) {
     background-image: url('img/Beggar Street Photos Project in Israel, Barcelona & London _ ZaraZoo.jpeg'); /* Set the path to your even image */
-    background-size: cover; /* Adjust to your needs */
+    background-size: cover; 
     background-repeat: no-repeat;
   }
   
@@ -371,7 +371,7 @@ body {
   .map-search-and-report{
     display:flex;
     flex-direction:row;
-    align-content: space-between;
+    justify-content: center;
     padding:30px;
   }
 
@@ -395,9 +395,8 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  
     transition: background-color 0.3s, box-shadow 0.3s;
     position: absolute;
-    top: 10px; 
-    left: 10px;
-    z-index: 1000; /* Adjust the z-index value */
+    margin-top:160px;
+    
 }
 
 .map-button:hover {
